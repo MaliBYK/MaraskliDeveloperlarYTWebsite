@@ -17,10 +17,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
 
 </head>
-<body>
-    <div class="container">
+<body >
+    <div class="container" id="container"> 
         <header>
-            <span class="name">Maraşklıı Developerlar</span>
+            <span class="name">Maraşklı Developerlar</span>
             <a href="#container" class="mainmenu">Ana Sayfa</a>
             <a href="#content" class="lessons">Eğitimler</a>
             <a href="#content-list" class="lessons-list">Videolar</a>
@@ -35,27 +35,65 @@
         <div class="content">
             <div class="box lesson1">
                 <img src="./img/pencil-icon.jpg" alt="">
-                <h3>Content 1</h3>
+                <h3> <a href="#">Content 1</a></h3>
                 <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet. amet consectetur adipisicing elit. Fugiat, tenetur!</p>
 
             </div>
 
             <div class="box lesson2">
                 <img src="./img/pencil-icon.jpg" alt="">
-                <h3>Content 2</h3>
+                <h3> <a href="#">Content 2</a></h3>
                 <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet. amet consectetur adipisicing elit. Fugiat, tenetur!</p>
                 
             </div>
 
             <div class="box lesson3">
                 <img src="./img/pencil-icon.jpg" alt="">
-                <h3>Content 3</h3>
+                <h3> <a href="#">Content 3</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet. elit. Fugiat, tenetur!</p>
                 
             </div>
         </div>
-        <div class="content-list"></div>
-        <footer class="footer"></footer>
+        <div class="content-list" id="content-list">
+            <h2>Videolar</h2>
+            <div class="video">
+                <img src="./img/page-logo.jpg" alt="">
+                <div class="video-content">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dolore porro molestias quo enim error!</p>
+                </div>
+            </div>
+
+            <div class="video">
+                <img src="./img/page-logo.jpg" alt="">
+                <div class="video-content">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dolore porro molestias quo enim error!</p>
+                </div>
+            </div>
+
+            <div class="video">
+                <img src="./img/page-logo.jpg" alt="">
+                <div class="video-content">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dolore porro molestias quo enim error!</p>
+                </div>
+            </div>
+
+        </div>
+        <footer class="footer" id="footer">
+            <h2>Bize Ulaşın</h2>
+
+            <label for="input-name">isim</label>
+            <input type="text" id="input-name" placeholder="İsim">
+
+            <label for="input-mail">E-Mail</label>
+            <input type="email" id="input-mail" placeholder="E-Mail">
+
+            <label for="input-content" class="message">Mesaj</label>
+            <input type="text" placeholder="Mesajınız...." id="input-content">
+            <input type="submit" class="btn" value="Gönder">
+        </footer>
     </div>
 </body>
 </html>
