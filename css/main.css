@@ -22,12 +22,12 @@ header{
 }
 header a{
     text-decoration: none;
-    padding: 0.9rem;
+    padding: 1rem;
     color: white;
-    margin: 0.45rem;
+    margin: 0.5rem;
     border-radius: 4px;
     position: relative;
-    left: 15%;
+    left: 27%;
 }
 header a:hover{
     background-color:#3180aa ;
