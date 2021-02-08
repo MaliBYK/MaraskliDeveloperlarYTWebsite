@@ -96,6 +96,7 @@ header a:hover{
 }
 
 .content-list{
+
     margin-top: 3%;
     display: flex;
     flex-direction: column;
@@ -106,21 +107,14 @@ header a:hover{
     font-size: 2em;
     padding-bottom: 2%;
 }
-.video-content{
-    text-align: center;
-    align-self: center;
-    margin-left: 10px;
-}
+
 .video{
     display: flex;
-    width: 30%;
+    justify-content: center;
+    align-items: center;
+    
     margin: 10px;
-    border: 1px solid black;
-    padding: 1%;
-}
-.video img{
-    width: 30%;
-    height: 35%;
+    width: 32%;
 }
 
 .footer{
@@ -166,7 +160,7 @@ header a:hover{
 }
 
 .name-label{
-    right: 14vw;
+    right: 13.5vw;
 }
 .email-label{
     margin-top: 15px;
