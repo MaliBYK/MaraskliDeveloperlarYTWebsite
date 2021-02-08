@@ -141,7 +141,7 @@ header a:hover{
     width: 30vw;
     height: 2.4em;
     border-radius: 0.4rem;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 .footer-form label{
     color: white;
@@ -152,33 +152,22 @@ header a:hover{
 
 #message {
     font-size:1.1em;
-    width: 40vw;
-    margin: 5px auto;
+    width: 30vw;
+    margin: 10px auto;
     position: relative;
-    left: 5vw;
+   
     border-radius: 5px;
     
 }
-.name-label{
-    right: 13.5vw;
-}
-.email-label{
-    margin-top: 15px;
-    right: 13.2vw;
-}
-.message-label{
-    margin-top: 10px;
-    right: 12.5vw;
-}
 
 .submit-btn{
-    width: 40vw;
-    margin: 1.15rem auto;
+    width: 30vw;
+    margin: 2rem auto;
     height: 2.5em;
     border-radius: 5px;
     font-size: 1.1rem;
     position: relative;
-    left: 5%;
+
     background-color: white;
     color: #09293a;
     font-weight: bold;
