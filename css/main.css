@@ -7,6 +7,7 @@
 }
 body{
     overflow-x: hidden;
+    background-color: #d6f1ff;
 }
 header{
     width: 100%;
@@ -137,6 +138,8 @@ header a:hover{
     width: 200px;
 }
 #user-name,#email{
+    background-color: #d6f1ff;
+    color:#010e24;
     font-size: 1.1em;
     width: 30vw;
     height: 2.4em;
@@ -155,7 +158,8 @@ header a:hover{
     width: 30vw;
     margin: 10px auto;
     position: relative;
-   
+    background-color: #d6f1ff;
+    color:#010e24;
     border-radius: 5px;
     
 }
@@ -168,7 +172,7 @@ header a:hover{
     font-size: 1.1rem;
     position: relative;
 
-    background-color: white;
+    background-color: #d6f1ff;
     color: #09293a;
     font-weight: bold;
 }
