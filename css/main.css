@@ -114,6 +114,7 @@ header a:hover{
     align-items: center;
     margin: 10px;
     width: 32%;
+    border: none;
 }
 
 .footer{
