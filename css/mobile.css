@@ -54,6 +54,10 @@
         left: 0;
     }    
 
+    .submit-btn{
+        width: 75%;
+        left: 0;
+    }
     .content{
         flex-direction: column;
     }
