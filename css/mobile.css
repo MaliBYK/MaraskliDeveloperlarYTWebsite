@@ -1,0 +1,63 @@
+@media(max-width:768px){
+    
+    header{
+        flex-wrap: wrap;
+    }
+    .name{
+        left: 2%;
+        font-size: 0.8em;
+    }
+    header a{
+        margin: 0.2rem;
+        padding: 0.4rem;
+        font-size: 0.7em;
+        left: 10%;
+    }
+
+    .go-yt{
+        width: 60%;
+    }
+
+    .video{
+        width: 80%;
+    }
+
+    .profile img{
+        
+        
+        width: 50%;
+        margin:10px auto;
+        
+    }
+
+    .name-label{
+        right: 30vw;
+    }
+    .email-label{
+        margin-top: 15px;
+        right: 28vw;
+    }
+    .message-label{
+        margin-top: 10px;
+        right: 25vw;
+    }
+
+    #user-name{
+        width: 75vw;
+    }
+    #email{
+        width: 75vw;
+    }
+
+    #message{
+        width: 75%;
+        left: 0;
+    }    
+
+    .content{
+        flex-direction: column;
+    }
+    .box{
+        margin-bottom: 10px;
+    }
+}
