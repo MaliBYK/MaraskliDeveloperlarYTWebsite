@@ -82,17 +82,20 @@
 
         </div>
         <footer class="footer" id="footer">
-            <h2>Bize Ulaşın</h2>
+            <form class="footer-form" action="">
+                <h2 class="footer-header">Bize Ulaşın</h2>
+                
+                <label for="user-name" class="name-label">isim</label>
+                <input type="text" id="user-name" placeholder="isim">
 
-            <label for="input-name">isim</label>
-            <input type="text" id="input-name" placeholder="İsim">
+                <label for="email" class="email-label">e-mail</label>
+                <input type="email" name="email" id="email" placeholder="e-mail">
 
-            <label for="input-mail">E-Mail</label>
-            <input type="email" id="input-mail" placeholder="E-Mail">
+                <label for="message" class="message-label">mesajınız</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
-            <label for="input-content" class="message">Mesaj</label>
-            <input type="text" placeholder="Mesajınız...." id="input-content">
-            <input type="submit" class="btn" value="Gönder">
+                <input type="button" class="submit-btn" value="Gönder">
+            </form>
         </footer>
     </div>
 </body>

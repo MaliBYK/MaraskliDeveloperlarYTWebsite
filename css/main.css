@@ -1,8 +1,12 @@
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Hammersmith One', sans-serif;
+}
+body{
+    overflow-x: hidden;
 }
 header{
     width: 100%;
@@ -70,11 +74,12 @@ header a:hover{
     background-color: #114866;
 }
 .content{
+    
     margin-top: 10px;
     width: 100vw;
     background-color:#0d5378 ;
     display: flex;
-    padding: 20px ;
+    padding-top:20px;
     padding-bottom: 35px;
 }
 .box{
@@ -117,60 +122,70 @@ header a:hover{
     width: 30%;
     height: 35%;
 }
-footer{
-    padding-top: 40px;
-    
+
+.footer{
+    background-color: #0d5378;
+    height: 600px;
+}
+
+.footer-form{
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 55vh;
-    background-color: #0d5378;
+    text-align: center;
+    margin: 10px auto;
+    padding-top: 30px;
 }
-footer h2{
-    align-self: center;
-    color: white;
+.footer-header{
     font-size: 2em;
-    padding-bottom: 1em;
-}
-footer label{
-    font-size: 1.1em;
     color: white;
-    position: relative;
-    left: 40%;
+    margin: 0px auto;
+    width: 200px;
 }
-.message{
-    left: 40%;
-}
-#input-name{
-    height: 3em;
-    border-radius: 5px;
-    width: 20vw;   
-}
-footer input{
-    border: 1px solid white;
-    height: 3em;
-    border-radius: 5px;
-    width: 20vw;
+#user-name,#email{
+    font-size: 1.1em;
+    width: 30vw;
+    height: 2.4em;
+    border-radius: 0.4rem;
     margin: 5px auto;
 }
-footer label:first-child{
+.footer-form label{
+    color: white;
+    font-size: 1.3em;
     position: relative;
-    right: 45px;
-}
-#input-content{
-    margin-left: 40%;
-    width: 40%;
-    height: 40%;
-    border-radius: 6px;
     
 }
-.btn{
-    
+
+#message {
+    font-size:1.1em;
+    width: 40vw;
+    margin: 5px auto;
     position: relative;
-    left: 10%;
-    margin-top: 20px;
-    height: 3em;
-    width: 40%;
+    left: 5vw;
+    border-radius: 5px;
+    
+}
+
+.name-label{
+    right: 14vw;
+}
+.email-label{
+    margin-top: 15px;
+    right: 13.2vw;
+}
+.message-label{
+    margin-top: 10px;
+    right: 12.5vw;
+}
+
+.submit-btn{
+    width: 40vw;
+    margin: 1.15rem auto;
+    height: 2.5em;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    position: relative;
+    left: 5%;
+    background-color: white;
+    color: #09293a;
     font-weight: bold;
-    margin-bottom: 10px;
 }
